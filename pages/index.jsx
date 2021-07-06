@@ -5,7 +5,8 @@ import Layout from '../components/layout/Layout'
 
 const Homepage = () => {
   return (
-    <Layout>
+    <Layout showAds= "true">
+      <div className="home-section"></div>
       <div className="home-section"></div>
     </Layout>
   )
