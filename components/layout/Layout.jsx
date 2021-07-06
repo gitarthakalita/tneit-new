@@ -8,9 +8,9 @@ const Layout = ({ children, showAds }) => {
   useEffect(() => {
     let addHeight;
     if (showAds === "true") {
-      addHeight = 180 + 309.19;
+      addHeight = 160 + 309.19;
     } else {
-      addHeight = 180;
+      addHeight = 160;
     }
 
     window.onscroll = scrollShow;
