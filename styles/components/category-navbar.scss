@@ -1,0 +1,28 @@
+.category-bar{
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.15rem 0.15rem #f3f3f3;
+  
+    background-color: #ffffff;
+  
+    gap: 2rem;
+
+    .cat-item{
+        width: fit-content;
+        height: 3rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+
+        
+      
+        &:hover {
+          color: #36c270;
+        }
+    }
+}

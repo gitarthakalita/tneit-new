@@ -1,0 +1,73 @@
+.navbar-container{
+    height: 12rem;
+    width: 100%;
+   display: grid;
+   place-items: center;
+  
+    
+
+    .wrapper{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        // grid-template-columns: 1fr 5fr 1fr;
+
+        .paper-box{
+            height: 6rem;
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.5rem;
+          
+            div {
+              font-weight: 500;
+              font-size: 1.2rem;
+            }
+        }
+
+        .logo-box{
+            width: 80%;
+            height: 6rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+
+            .logo{
+                background-image: url(/assets/logo.png);
+                height: 4rem;
+                width: 4rem;
+                background-size: contain;
+                background-position:50%;
+                background-repeat:no-repeat;
+                cursor: pointer;
+                border-radius:0.5rem;
+            }
+
+            h1 {
+              font-size: 4.8rem;
+              cursor: pointer;
+            //   font-family: "Source Sans Pro", sans-serif;
+            }
+        }
+
+        .activity-box{
+            width: fit-content;
+            height: 6rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 1rem;
+          
+            div {
+              font-weight: 500;
+              font-size: 1.2rem;
+              
+            }
+        }
+    }
+}
