@@ -1,4 +1,8 @@
+import Link from "next/link";
 import React from "react";
+
+import Sidebar from './Sidebar.jsx'
+
 
 const Navbar = () => {
   return (
@@ -8,13 +12,15 @@ const Navbar = () => {
           <div>Today's Paper</div>
           <div>Wednesday, April 7 , 2021</div>
         </div>
-        <div className="logo-box">
+       <Link href="/" passHref>
+       <div className="logo-box">
           <div className="logo"></div>
           <h1>The Northeast India Times</h1>
         </div>
+       </Link>
         <div className="activity-box">
           <div>Assam Edition</div>
-          <div>menu</div>
+          <Sidebar/>
         </div>
       </div>
     </nav>

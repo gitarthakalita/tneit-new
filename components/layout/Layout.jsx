@@ -1,20 +1,52 @@
-import React from 'react'
-import CategoryBar from '../navbar/CategoryBar'
-import CategoryNavbar from '../navbar/CategoryNavbar'
-import Navbar from '../navbar/Navbar'
+import React from "react";
+import { useEffect } from "react";
+import CategoryBar from "../navbar/CategoryBar";
+import CategoryNavbar from "../navbar/CategoryNavbar";
+import Navbar from "../navbar/Navbar";
 
+const Layout = ({ children, showAds }) => {
+  useEffect(() => {
+    let addHeight;
+    if (showAds === "true") {
+      addHeight = 160 + 309.19;
+    } else {
+      addHeight = 160;
+    }
 
+    window.onscroll = scrollShow;
 
+    function scrollShow() {
+      if (
+        document.body.scrollTop >
+          window.innerHeight - (window.innerHeight - addHeight) ||
+        document.documentElement.scrollTop >
+          window.innerHeight - (window.innerHeight - addHeight)
+      ) {
+        document.getElementsByClassName("bingo")[0].style.position = "sticky";
+        document.getElementsByClassName("bingo")[0].style.top = "0";
+        document.getElementsByClassName("bingo")[0].style.visibility =
+          "visible";
 
-const Layout = ({children}) => {
-    return (
-        <div className="layout-container">
-            <Navbar/>
-            <CategoryBar/>
-            <CategoryNavbar/>
-            {children}
-        </div>
-    )
-}
+        document.getElementsByClassName("bingo")[0].style.display = "block";
+        document.getElementsByClassName("bingo")[0].style.zIndex = "999";
+      } else {
+        document.getElementsByClassName("bingo")[0].style.top = "0";
+        document.getElementsByClassName("bingo")[0].style.display = "none";
+        document.getElementsByClassName("bingo")[0].style.visibility = "hidden";
+      }
+    }
+  });
 
-export default Layout
+  return (
+    <div className="layout-container">
+      <Navbar />
+      <CategoryBar />
+      <div className="bingo">
+        <CategoryNavbar />
+      </div>
+      {children}
+    </div>
+  );
+};
+
+export default Layout;

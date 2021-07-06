@@ -1,5 +1,6 @@
 import React from "react";
 import CategoryBar from "./CategoryBar";
+import Sidebar from "./Sidebar";
 
 const CategoryNavbar = () => {
   return (
@@ -8,7 +9,7 @@ const CategoryNavbar = () => {
         <div className="logo"></div>
         <CategoryBar />
         <div className="activity-box">
-          <div>menu</div>
+          <Sidebar/>
         </div>
       </div>
     </div>
