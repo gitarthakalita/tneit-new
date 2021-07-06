@@ -1,28 +1,74 @@
-.category-bar{
-    height: 6rem;
-    width: 100%;
+.category-bar {
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // box-shadow: 0 0.15rem 0.15rem #f3f3f3;
+
+  background-color: #ffffff;
+
+  gap: 2rem;
+
+  .cat-item {
+    width: fit-content;
+    height: 3rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    cursor: pointer;
     display: flex;
-    justify-content: center;
     align-items: center;
-    box-shadow: 0 0.15rem 0.15rem #f3f3f3;
-  
-    background-color: #ffffff;
-  
-    gap: 2rem;
 
-    .cat-item{
-        width: fit-content;
-        height: 3rem;
-        font-size: 1.4rem;
-        font-weight: 400;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-
-        
-      
-        &:hover {
-          color: #36c270;
-        }
+    &:hover {
+      color: #36c270;
     }
+  }
+}
+
+//  Catgeory Navbar
+
+.category-navbar {
+  height: 6rem;
+  width: 100%;
+
+  display: grid;
+  place-items: center;
+
+  box-shadow: 0 0.15rem 0.15rem #f3f3f3;
+
+  .wrapper {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    
+    background-color: white;
+
+    .logo{
+      background-image: url(/assets/logo.png);
+      height: 3rem;
+      width: 3rem;
+      background-size: contain;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    
+      border-radius: 0.5rem;
+    }
+    .activity-box{
+      width: fit-content;
+      height: 6rem;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 1rem;
+    
+      div {
+        font-weight: 500;
+        font-size: 1.2rem;
+        
+      }
+  }
+  }
 }
