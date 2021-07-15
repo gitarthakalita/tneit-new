@@ -39,13 +39,19 @@ const Layout = ({ children, showAds }) => {
 
   return (
     <div className="layout-container">
-      {showAds === "true" ? <div className="adbox"></div> : null}
+      {showAds === "true" ? (
+        <div className="adbox">
+          
+          <div className="ad">
+          <p>Advertisement</p>
+          </div>
+        </div>
+      ) : null}
       <Navbar />
       <CategoryBar />
       <hr />
       <div className="bingo">
         <CategoryNavbar />
-        
       </div>
       {children}
     </div>

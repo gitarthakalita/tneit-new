@@ -28,6 +28,12 @@ const Homepage = ({data}) => {
                  <div className="featured-opinion"></div>
                </div>
       </section>
+
+      <section className="story-section">
+        <div className="wrapper">
+          
+        </div>
+      </section>
       
      
     </Layout>

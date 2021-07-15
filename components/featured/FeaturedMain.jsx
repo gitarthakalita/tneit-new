@@ -1,16 +1,16 @@
 import React from "react";
-import Image from "next/image";
+import Link from "next/link";
 
 const FeaturedMain = ({ item }) => {
   return (
     <div className="featured-main-wrapper">
-      <h3>{item.title}</h3>
+      <Link href={`/${item.category}/${item.slug}`}>
+        <h3>{item.title}</h3>
+      </Link>
       <div className="excerpt-box">
-          {
-              item.excerpts.map((item,index) => (
-                  <p>{item}</p>
-              ))
-          }
+        {item.excerpts.map((item, index) => (
+          <p>{item}</p>
+        ))}
       </div>
       <div
         className="image-box"
