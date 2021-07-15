@@ -14,7 +14,7 @@
         display: grid;
         grid-template-columns:[c1] 1fr [c2] 3fr [c3] 1fr [c4];
         grid-template-rows:[r1] 1fr [r2] auto [r3];
-        gap: 2rem 0.75rem;
+        gap: 5rem 0.75rem;
 
         .featured-live-updates{
             // background-color: $baseCloud;
@@ -50,11 +50,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;            
             gap: 0.75rem;
-
             
-
-            
-            // border-bottom: 0.25rem solid $baseColor;
             
         }
 
