@@ -46,12 +46,17 @@
                 background-repeat:no-repeat;
                 cursor: pointer;
                 border-radius:0.5rem;
+                display: none;
+                
             }
 
             h1 {
-              font-size: 4.8rem;
+              font-size: 5.4rem;
+              font-weight: normal;
               cursor: pointer;
             //   font-family: "Source Sans Pro", sans-serif;
+            font-family: 'Chomsky';
+            color: $baseColor;
             }
         }
 
