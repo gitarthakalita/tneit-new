@@ -5,16 +5,16 @@ import Link from "next/link";
 const CategoryBar = () => {
   return (
     <div className="category-bar">
-      <Link href="/world" passHref>
+      <Link href="/world" >
         <div className="cat-item"> World </div>
       </Link>
-      <Link href="/asia " passHref>
+      <Link href="/asia ">
         <div className="cat-item"> Asia </div>
       </Link>
       <Link href="/india">
-        <div className="cat-item" passHref> India </div>
+        <div className="cat-item" > India </div>
       </Link>
-      <Link href="/ne-india">
+      <Link href="/ne-india" >
         <div className="cat-item"> NE India </div>
       </Link>
       <Link href=" /editorial">

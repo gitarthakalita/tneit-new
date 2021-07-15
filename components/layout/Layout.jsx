@@ -39,7 +39,7 @@ const Layout = ({ children, showAds }) => {
 
   return (
     <div className="layout-container">
-      {showAds ? <div className="adbox"></div> : null}
+      {showAds === "true" ? <div className="adbox"></div> : null}
       <Navbar />
       <CategoryBar />
       <hr />

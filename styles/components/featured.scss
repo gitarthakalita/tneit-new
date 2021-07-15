@@ -1,3 +1,60 @@
-.featured-main-wrapper{
+.featured-main-wrapper {
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: [c1] 1fr [c2] 1fr [c3];
+  grid-template-rows: [r1] auto [r2] auto [r3];
+  
+
+  h3 {
+    font-size: 3.2rem;
+    line-height: 150%;
+    grid-column-start: c1;
+    grid-column-end: c3;    
+    font-family: "Roboto Slab";
+
+    color: $baseColor;
+
+    cursor: pointer;
+
+  }
+
+  .excerpt-box{
+      height: 100%;
+      width: 100%;
+      padding-right: 2rem;
+
+      display: flex;
+      flex-direction: column;
+
+      justify-content: flex-start;
+      gap: 2rem;
+
+      p{
+          font-size: 1.4rem;
+          line-height: 150%;
+          cursor: pointer;
+      }
+
+  }
+
+  .image-box {
+    height: 100%;
+    width: 100%;
     
+    grid-column-start: c2;
+    grid-column-end: c3;
+    grid-row-start: r2;
+    grid-row-end: r3;
+
+    
+    background-size: contain;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    
+    
+
+    
+  }
 }

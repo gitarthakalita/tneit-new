@@ -1,0 +1,17 @@
+{
+    "featuredMain":{
+        "title":"Pfizer Nears Deal With Trump Administration to Provide More Vaccine Doses ",
+        "excerpts":["Pfizer could provide tens of millions of additional vaccine doses to the U.S. under a deal that would give it better access to manufacturing supplies.", "The deal would help the U.S. at least partly offset a looming shortage that could leave as many as 110 million adults uncovered in the first half of 2021.", "The deal would help the U.S. at least partly offset a looming shortage that could leave as many as 110 million adults uncovered in the first half of 2021."],
+        "imageUrl":"/assets/featured-main.png",
+        "slug":"pfizer-nears-deal-with",
+        "category":"world"
+
+    },
+    "featuredExclussive":[
+        {
+            "id":1,
+            "title":"",
+            "image_url":""
+        }
+    ]
+}

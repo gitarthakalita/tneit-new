@@ -14,7 +14,7 @@
         display: grid;
         grid-template-columns:[c1] 1fr [c2] 3fr [c3] 1fr [c4];
         grid-template-rows:[r1] 1fr [r2] auto [r3];
-        gap: 0.75rem;
+        gap: 2rem 0.75rem;
 
         .featured-live-updates{
             background-color: $baseCloud;
@@ -29,11 +29,13 @@
             grid-row-end: r2;
             grid-column-start: c2;
             grid-column-end: c3;
-            background-color: $baseCloud;
-            height: 75vh;
+            // background-color: $baseCloud;
+            height: 60vh;
             width: 100%;
             display: grid;
             place-items: center;
+
+            border-bottom: 0.25rem solid $baseColor;
         }
 
         .featured-exclussive{
@@ -51,7 +53,8 @@
             gap: 0.75rem;
 
             .exclussive-item{
-                height: 60vh;
+                height: 100%;
+                min-height: 60vh;                
                 background-color: $baseCloud;
             }
         }

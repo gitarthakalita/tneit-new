@@ -4,16 +4,21 @@ import Layout from '../components/layout/Layout'
 
 
 
-const Homepage = () => {
+const Homepage = ({data}) => {
+
+   
+
   return (
     <Layout 
-    // showAds= "false"
+    showAds= "true"
     >
       <section className="featured-section">
                <div className="wrapper">
                  <div className="featured-live-updates"></div>
                  <div className="featured-main">
-                   <FeaturedMain/>
+                   <FeaturedMain
+                      item={data.featuredMain}
+                   />
                  </div>
                  <div className="featured-exclussive">
                    <div className="exclussive-item"></div>
@@ -29,4 +34,15 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default Homepage;
+
+export async function getStaticProps(context) {
+  const res = await fetch("http://localhost:3000/data/featured.json")
+  const data = await res.json()
+
+  return{
+    props:{
+      data
+    },
+  }
+}
