@@ -10,8 +10,21 @@
     "featuredExclussive":[
         {
             "id":1,
-            "title":"",
-            "image_url":""
+            "title":"China grants policy leeway to spur Shanghai as nation’s growth pioneer",
+            "image_url":"https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1098,format=auto/sites/default/files/styles/1200x800/public/d8/images/methode/2021/07/15/d8254c32-e551-11eb-9aba-1b7e08262541_image_hires_233020.jpeg?itok=0rLU1T7E&v=1626363027",
+            "excerpt":["China will halve the tax rates for qualified technology companies in Shanghai’s Pudong district and grant the local government greater freedoms in making its own legislation and liberalising the capital markets."]
+        },
+        {
+            "id":2,
+            "title":"US firms in China ‘confused’ by new Biden warning on Xinjiang business risks",
+            "image_url":"https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1098,format=auto/sites/default/files/styles/1200x800/public/d8/images/methode/2021/07/16/d74eacbe-e555-11eb-9aba-1b7e08262541_image_hires_024804.jpg?itok=tAjmuuPh&v=1626374898",
+            "excerpt":["The White House update on Xinjiang supply chain risks adds pressure on American companies to cut exposure to the region, but many say compliance will be tricky."]
+        },
+        {
+            "id":3,
+            "title":"US Air Force makes short stop in Taiwan as de facto ambassadors change",
+            "image_url":"https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1098,format=auto/sites/default/files/styles/1200x800/public/d8/images/methode/2021/07/15/30b1dbf8-e553-11eb-9aba-1b7e08262541_image_hires_212725.JPG?itok=ucXhw5EL&v=1626355651",
+            "excerpt":["As director of the American Institute in Taiwan Brent Christensen leaves and Sandra Oudkirk arrives, Beijing lets its anger be known."]
         }
     ]
 }

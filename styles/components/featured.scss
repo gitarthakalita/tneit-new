@@ -6,56 +6,93 @@
   grid-template-columns: [c1] 1fr [c2] 1fr [c3];
   grid-template-rows: [r1] auto [r2] auto [r3];
   // grid-template-rows: auto;
-  
 
   h3 {
     font-size: 3.2rem;
     line-height: 150%;
     grid-column-start: c1;
-    grid-column-end: c3;    
+    grid-column-end: c3;
     font-family: "Roboto Slab";
 
     color: $baseColor;
 
     cursor: pointer;
-
   }
 
-  .excerpt-box{
-      height: 100%;
-      width: 100%;
-      padding-right: 2rem;
+  .excerpt-box {
+    height: 100%;
+    width: 100%;
+    padding-right: 2rem;
 
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
-      justify-content: flex-start;
-      gap: 2rem;
+    justify-content: flex-start;
+    gap: 2rem;
 
-      p{
-          font-size: 1.4rem;
-          line-height: 150%;
-          cursor: pointer;
-      }
-
+    p {
+      font-size: 1.4rem;
+      line-height: 150%;
+      cursor: pointer;
+    }
   }
 
   .image-box {
     height: 100%;
     width: 100%;
-    
+
     grid-column-start: c2;
     grid-column-end: c3;
     grid-row-start: r2;
     grid-row-end: r3;
 
-    
     background-size: contain;
     background-position: 100% 0%;
     background-repeat: no-repeat;
-    
-    
+  }
+}
 
-    
+//  Featured Exclussive Card
+
+.featured-exclussive-card {
+  min-height: 65vh;
+  height: 100%;
+  width: 100%;
+
+  background-color: $baseCloud;
+  display: grid;
+  place-items: center;
+
+  .featured-exclussive-wrapper {
+    height: 100%;
+    width: 100%;
+    padding: 1rem 2rem 1rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+
+    color: $baseColor;
+
+    h3 {
+      font-size: 2rem;
+      line-height: 150%;
+      cursor: pointer;
+    }
+
+    p {
+      font-size: 1.4rem;
+      line-height: 150%;
+      cursor: pointer;
+    }
+
+    .image-box {
+      height: 100%;
+      width: 100%;
+      background-size: contain;
+      background-position: 50% 100%;
+      background-repeat: no-repeat;
+    }
   }
 }

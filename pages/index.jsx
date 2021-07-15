@@ -1,4 +1,5 @@
 import React from 'react'
+import FeaturedExclussive from '../components/featured/FeaturedExclussive';
 import FeaturedMain from '../components/featured/FeaturedMain'
 import Layout from '../components/layout/Layout'
 
@@ -6,7 +7,7 @@ import Layout from '../components/layout/Layout'
 
 const Homepage = ({data}) => {
 
-  console.log(data);
+  
    
 
   return (
@@ -22,9 +23,14 @@ const Homepage = ({data}) => {
                    />
                  </div>
                  <div className="featured-exclussive">
-                   <div className="exclussive-item"></div>
-                   <div className="exclussive-item"></div>
-                   <div className="exclussive-item"></div>
+                  {
+                    data.featuredExclussive.map((item, index) => (
+                      <FeaturedExclussive
+                        data={item}
+                        key={index}
+                      />
+                    ))
+                  }                                    
                  </div>
                  <div className="featured-opinion"></div>
                </div>

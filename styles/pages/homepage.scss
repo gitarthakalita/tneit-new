@@ -48,15 +48,12 @@
             grid-column-end: c3;
 
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            
+            grid-template-columns: 1fr 1fr 1fr;            
             gap: 0.75rem;
 
-            .exclussive-item{
-                height: 100%;
-                min-height: 60vh;                
-                background-color: $baseCloud;
-            }
+            
+
+            
         }
 
         .featured-opinion{
