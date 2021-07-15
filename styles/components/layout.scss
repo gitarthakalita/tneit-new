@@ -19,10 +19,11 @@
     }
 
     hr{
-        border-top: 0.25rem solid $baseColor;
-        border-bottom: 0.25rem solid $baseColor;
-        padding: 0.01rem;
+        border-top: 0.2rem solid $baseColor;
+        border-bottom: 0.2rem solid $baseColor;
+        padding: 0.05rem;
         width: 90%;
+        
         margin: 0 auto;
     }
 }
