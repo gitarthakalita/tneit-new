@@ -59,14 +59,19 @@
   height: 100%;
   width: 100%;
 
-  background-color: $baseCloud;
+  // background-color: $baseCloud;
   display: grid;
   place-items: center;
+
+  &:hover{
+    background-color: $baseCloud;
+  }
 
   .featured-exclussive-wrapper {
     height: 100%;
     width: 100%;
-    padding: 1rem 2rem 1rem 1rem;
+    // padding: 1rem 2rem 1rem 1rem;
+    padding: 1rem;
 
     display: flex;
     flex-direction: column;
@@ -79,6 +84,7 @@
       font-size: 2rem;
       line-height: 150%;
       cursor: pointer;
+      font-family: "Roboto Slab";
     }
 
     p {

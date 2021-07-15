@@ -36,7 +36,7 @@ const Homepage = ({data}) => {
                </div>
       </section>
 
-      <section className="story-section">
+      <section className="editors-section">
         <div className="wrapper">
           
         </div>

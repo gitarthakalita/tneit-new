@@ -1,6 +1,10 @@
-{
-    "id": 1,
-    "story":{
-        "title":""
+[
+    {
+        "id": 1,
+        "categpry":"world",
+        "slug":"pfizer-nears-deal-with-trump-administration",
+        "story": {
+            "title": ""
+        }
     }
-}
+]

@@ -54,6 +54,8 @@
             
 
             
+            // border-bottom: 0.25rem solid $baseColor;
+            
         }
 
         .featured-opinion{
@@ -63,5 +65,24 @@
             grid-column-start: c3;
             grid-column-end: c4;
         }
+    }
+}
+
+
+//  Editor's Section
+
+.editors-section{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+    margin: 5rem 0;
+
+    .wrapper{
+        height: 100%;
+        width: 90%;
+
+        display: grid;
     }
 }
