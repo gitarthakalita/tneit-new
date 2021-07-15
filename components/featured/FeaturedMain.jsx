@@ -9,7 +9,7 @@ const FeaturedMain = ({ item }) => {
       </Link>
       <div className="excerpt-box">
         {item.excerpts.map((item, index) => (
-          <p>{item}</p>
+          <p key={index}>{item}</p>
         ))}
       </div>
       <div

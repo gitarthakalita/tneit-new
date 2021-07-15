@@ -6,6 +6,7 @@ import Layout from '../components/layout/Layout'
 
 const Homepage = ({data}) => {
 
+  console.log(data);
    
 
   return (

@@ -16,10 +16,12 @@
     width: fit-content;
     height: 3rem;
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: 600;
     cursor: pointer;
     display: flex;
     align-items: center;
+    color: $baseColor;
+
 
     &:hover {
       color: #36c270;
