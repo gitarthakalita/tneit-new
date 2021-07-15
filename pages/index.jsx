@@ -1,6 +1,7 @@
 import React from 'react'
 import FeaturedExclussive from '../components/featured/FeaturedExclussive';
 import FeaturedMain from '../components/featured/FeaturedMain'
+import LiveUpdate from '../components/featured/LiveUpdate';
 import Layout from '../components/layout/Layout'
 
 
@@ -8,7 +9,7 @@ import Layout from '../components/layout/Layout'
 const Homepage = ({data}) => {
 
   
-   
+   console.log(data.liveUpdate);
 
   return (
     <Layout 
@@ -16,7 +17,11 @@ const Homepage = ({data}) => {
     >
       <section className="featured-section">
                <div className="wrapper">
-                 <div className="featured-live-updates"></div>
+                 <div className="featured-live-updates">
+                   <LiveUpdate
+                      livedata={data.liveUpdate}
+                   />
+                 </div>
                  <div className="featured-main">
                    <FeaturedMain
                       item={data.featuredMain}
