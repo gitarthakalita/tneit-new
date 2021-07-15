@@ -42,8 +42,10 @@ const Layout = ({ children, showAds }) => {
       {showAds ? <div className="adbox"></div> : null}
       <Navbar />
       <CategoryBar />
+      <hr />
       <div className="bingo">
         <CategoryNavbar />
+        
       </div>
       {children}
     </div>

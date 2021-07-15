@@ -17,4 +17,12 @@
         width: 100%;
         
     }
+
+    hr{
+        border-top: 0.25rem solid $baseColor;
+        border-bottom: 0.25rem solid $baseColor;
+        padding: 0.01rem;
+        width: 90%;
+        margin: 0 auto;
+    }
 }
