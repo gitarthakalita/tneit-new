@@ -1,3 +1,4 @@
+import { Button } from "@material-ui/core";
 import Link from "next/link";
 import React from "react";
 
@@ -9,7 +10,7 @@ const Navbar = () => {
     <nav className="navbar-container">
       <div className="wrapper">
         <div className="paper-box">
-          <div>Today's Paper</div>
+          <div>Today's Paper, Assam Edition</div>
           <div>Wednesday, April 7 , 2021</div>
         </div>
        <Link href="/" passHref>
@@ -19,7 +20,11 @@ const Navbar = () => {
         </div>
        </Link>
         <div className="activity-box">
-          <div>Assam Edition</div>
+
+          
+          <div className="subscribe">
+            <Button>Subscribe</Button>
+          </div>
           <Sidebar/>
         </div>
       </div>
