@@ -9,7 +9,7 @@ const Layout = ({ children, showAds }) => {
   useEffect(() => {
     let addHeight;
     if (showAds === "true") {
-      addHeight = 170 + 309.19;
+      addHeight = 170 + 329.19;
     } else {
       addHeight = 170;
     }

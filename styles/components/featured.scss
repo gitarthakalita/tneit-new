@@ -121,7 +121,8 @@
   place-items: center;
 
   &:hover {
-    background-color: $baseCloud;
+    
+    box-shadow: 0 0.15rem 0.35rem #e4e3e3;
   }
 
   .featured-exclussive-wrapper {
@@ -136,6 +137,23 @@
     gap: 5rem;
 
     color: $baseColor;
+
+    position: relative;
+
+    .exclussive-label{
+      position: absolute;
+      top: -4%;
+      left: 0;
+    }
+
+    .MuiButtonBase-root{
+      // background-color: $baseColor;
+      color: $secondaryColor;
+      font-weight: 600;
+      font-size: 1.2rem;
+      text-transform: capitalize;
+    }
+
 
     h3 {
       font-size: 2rem;

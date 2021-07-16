@@ -1,5 +1,7 @@
 import React from "react";
 import Adbox from "../components/adbox/Adbox";
+import EditorialToday from "../components/editors/EditorialToday";
+import EditorsPick from "../components/editors/EditorsPick";
 import FeaturedExclussive from "../components/featured/FeaturedExclussive";
 import FeaturedMain from "../components/featured/FeaturedMain";
 import LiveUpdate from "../components/featured/LiveUpdate";
@@ -28,7 +30,10 @@ const Homepage = ({ data }) => {
       </section>
 
       <section className="editors-section">
-        <div className="wrapper"></div>
+        <div className="wrapper">
+          <EditorsPick/>
+          <EditorialToday/>
+        </div>
       </section>
 
       <Adbox image_url="https://picsum.photos/1250/350" height="40vh" />
