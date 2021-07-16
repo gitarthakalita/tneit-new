@@ -23,21 +23,24 @@
 
     justify-content: flex-start;
 
-    gap: 3rem;
+    gap: 2rem;
 
     .live-update-snippet {
-      height: 12.5rem;
-      width: 90%;
+      height: 12rem;
+      width: 85%;
 
       display: flex;
       flex-direction: column;
       gap: 1rem;
       color: $baseColor;
       padding: 1rem;
-      border-left: 0.35rem solid $secondaryColor;
+
+      background-color: $baseCloud;
+      
       .content-category {
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-transform: capitalize;
+        font-weight: 600;
       }
 
       p {

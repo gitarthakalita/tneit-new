@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
+import Adbox from "../adbox/Adbox";
 import CategoryBar from "../navbar/CategoryBar";
 import CategoryNavbar from "../navbar/CategoryNavbar";
 import Navbar from "../navbar/Navbar";
@@ -40,12 +41,10 @@ const Layout = ({ children, showAds }) => {
   return (
     <div className="layout-container">
       {showAds === "true" ? (
-        <div className="adbox">
-          
-          <div className="ad">
-          <p>Advertisement</p>
-          </div>
-        </div>
+        <Adbox
+          image_url="https://picsum.photos/1150/250"
+          height="30vh"
+        />
       ) : null}
       <Navbar />
       <CategoryBar />

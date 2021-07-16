@@ -1,0 +1,30 @@
+.adbox-section {
+  min-height: 40vh;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+
+  // margin-bottom: 5rem;
+
+  .ad {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    //   background-image: url("https://smsh-0-778169-juc1ugur1qwqqqo4.stackpathdns.com/1545644/wp-content/uploads/2021/04/Sellics_Benchmarker_Banner_1740x450_EN.png?lossy=0&strip=1&webp=1");
+    //   background-image: url("https://picsum.photos/1150/250");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    cursor: pointer;
+
+    p {
+      width: 100%;
+      position: absolute;
+      top: -7%;
+      text-align: center;
+      color: grey;
+      text-transform: uppercase;
+    }
+  }
+}
