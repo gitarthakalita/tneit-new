@@ -36,11 +36,42 @@ const Homepage = ({ data }) => {
         </div>
       </section>
 
-      <Adbox image_url="https://picsum.photos/1250/350" height="40vh" />
+      
+      <Adbox image_url="/assets/advert.png" height="30vh" />
 
       <section className="editors-section">
         <div className="wrapper"></div>
       </section>
+
+
+      <section className="editors-section">
+        <div className="wrapper"></div>
+      </section>
+
+
+
+      <section className="editors-section">
+        <div className="wrapper"></div>
+      </section>
+
+      <Adbox image_url="https://picsum.photos/1250/350" height="40vh" />
+
+
+<section className="editors-section">
+  <div className="wrapper"></div>
+</section>
+
+<section className="editors-section">
+  <div className="wrapper"></div>
+</section>
+
+<section className="editors-section">
+  <div className="wrapper"></div>
+</section>
+
+
+      <Adbox image_url="/assets/advert.png" height="40vh" />
+
     </Layout>
   );
 };
@@ -48,7 +79,7 @@ const Homepage = ({ data }) => {
 export default Homepage;
 
 export async function getStaticProps(context) {
-  const res = await fetch("http://localhost:3000/data/featured.json");
+  const res = await fetch("http://localhost:3000/data/homepage.json");
   const data = await res.json();
 
   return {

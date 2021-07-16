@@ -65,5 +65,18 @@
             "timestamp":"",
             "category":"world"
         }
-    ]
+    ],
+    "editorsPick":{
+        "title":"Driver Rams Into Officers at Capitol, Killing One and Injuring Another",
+        "excerpts":["Less than three months after the Jan. 6 riot, a Capitol Police officer was killed when a man slammed his car into him and another officer.", "The suspect, a 25-year-old man who was alone and armed with a knife, was shot and killed.", "The attack shocked a Capitol slowly returning to normalcy, raising new questions about securing the complex."],
+        "imageUrl":"/assets/featured-main.png",
+        "slug":"pfizer-nears-deal-with-trump-administration",
+        "category":"world"
+    },
+    "editorialToday":{
+        "title":"China dam over Brahmaputra will be a disaster ",
+        "excerpts":"China is approving a mega dam on the world’s largest and the deepest gorge over the Tsangpo/ Siang/ Brahmaputra. Actually, it is a Giga dam as it is going to produce 60GW of energy. China’s aim to achieve carbon neutrality by 2060 by building a Giga dam for cheap electricity is outrageous. China already has an excess of energy, who will benefit from this electricity done at the expense of billions of people, including the death of the river Siang/Brahmaputra? ",        
+        "slug":"pfizer-nears-deal-with-trump-administration",
+        "category":"editorial"
+    }
 }
