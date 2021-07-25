@@ -10,6 +10,7 @@ const LiveUpdate = ({livedata}) => {
                 livedata.map((item, index)=> (
                     <LiveUpdateSnippet
                         snippet={item}
+                        key={index}
                     />
                 ))
             }

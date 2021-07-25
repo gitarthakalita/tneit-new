@@ -59,9 +59,9 @@
   width: 100%;
   padding: 2rem;
   display: grid;
-  grid-template-columns: [c1] 1fr [c2] 1fr [c3];
-  grid-template-rows: [r1] auto [r2] auto [r3];
-  // grid-template-rows: auto;
+  grid-template-columns: [c1] 1fr [c2] 1.25fr [c3];
+  grid-template-rows: [r1] 13.5rem [r2] auto [r3];
+  gap: 0 1rem;
 
   h3 {
     font-size: 3.2rem;
