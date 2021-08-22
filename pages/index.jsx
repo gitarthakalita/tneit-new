@@ -2,6 +2,7 @@ import React from "react";
 import Adbox from "../components/adbox/Adbox";
 import EditorialToday from "../components/editors/EditorialToday";
 import EditorsPick from "../components/editors/EditorsPick";
+import FeaturedColumn from "../components/featured/FeaturedColumn";
 import FeaturedExclussive from "../components/featured/FeaturedExclussive";
 import FeaturedMain from "../components/featured/FeaturedMain";
 import LiveUpdate from "../components/featured/LiveUpdate";
@@ -25,7 +26,11 @@ const Homepage = ({ data }) => {
               <FeaturedExclussive data={item} key={index} />
             ))}
           </div>
-          <div className="featured-opinion"></div>
+          <div className="featured-opinion-column">
+            <div className="opinion-column-wrapper">
+              <FeaturedColumn/>
+            </div>
+          </div>
         </div>
       </section>
 

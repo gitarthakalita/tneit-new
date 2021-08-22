@@ -7,7 +7,9 @@ const NewsPost = () => {
         <Layout
             showAds= "true"
         >
-            
+            <section className="story-header-section">
+                
+            </section>
         </Layout>
     )
 }
