@@ -28,7 +28,10 @@ const Homepage = ({ data }) => {
           </div>
           <div className="featured-opinion-column">
             <div className="opinion-column-wrapper">
-              <FeaturedColumn/>
+            <h4>Opinions</h4>
+              <FeaturedColumn 
+                opinionData={data.featuredOpinion}
+              />
               
             </div>
           </div>

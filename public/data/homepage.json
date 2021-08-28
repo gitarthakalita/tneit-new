@@ -66,6 +66,28 @@
             "category":"world"
         }
     ],
+    "featuredOpinion": [
+        {
+            "id":1,
+            "title":"It Shouldn’t Fall to Veterans to Clean Up Biden’s Mess",                       
+            "author":"Elliot Ackerman"
+        },
+        {
+            "id":2,
+            "title":"What Trump's disgraceful deal with the Taliban has wrought",                        
+            "author":"Kori Schake"
+        },
+        {
+            "id":3,
+            "title":"The right-wingers who admire the Taliban",                       
+            "author":"Michelle Goldberg"
+        },
+        {
+            "id":4,
+            "title":"This is how theocracy shrivels",                        
+            "author":"David Brooks"
+        }
+    ],
     "editorsPick":{
         "title":"Driver Rams Into Officers at Capitol, Killing One and Injuring Another",
         "excerpts":["Less than three months after the Jan. 6 riot, a Capitol Police officer was killed when a man slammed his car into him and another officer.", "The suspect, a 25-year-old man who was alone and armed with a knife, was shot and killed.", "The attack shocked a Capitol slowly returning to normalcy, raising new questions about securing the complex."],
