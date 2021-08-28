@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
 
 const FeaturedColumn = () => {
-    return (
-        <div className="featured-column">
-            
-        </div>
-    )
-}
+  return (
+    <div className="featured-opinion">
+      <h4>Opinions</h4>
 
-export default FeaturedColumn
+      <div className="opinion-box">
+        <div className="item"></div>
+        <div className="item"></div>
+        <div className="item"></div>
+        <div className="item"></div>
+      </div>
+    </div>
+  );
+};
+
+export default FeaturedColumn;

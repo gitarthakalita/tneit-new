@@ -26,7 +26,8 @@
     gap: 2rem;
 
     .live-update-snippet {
-      height: 12rem;
+      min-height: 12rem;
+      height: 100%;
       width: 85%;
 
       display: flex;
@@ -46,8 +47,13 @@
 
       p {
         font-size: 1.4rem;
+        font-weight: 600;
         line-height: 150%;
         cursor: pointer;
+      }
+
+      span{
+        color: $baseColor;
       }
     }
   }
@@ -185,13 +191,58 @@
   height: 100%;
   width: 100%;
 
-  display: grid;
-  grid-template-rows: 50vh auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  
+  gap: 1rem;
+
+  
+
+ 
 
 
-  .featured-column{
+  .featured-opinion{
     height: 100%;
     width: 100%;
+
     
+
+    padding: 2rem 0;
+
+    
+
+    h4 {
+      font-size: 2rem;
+      color: $baseColor;
+      
+      
+    }
+
+    .opinion-box{
+
+    height: 100%;
+    width: 100%;
+
+    // background-color: #564da3;
+
+    margin-top: 3rem;
+
+    display: grid;
+
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    gap: 1rem;
+
+    .item{
+      height: 100%;
+      width: 100%;
+      background-color: $baseCloud;
+      
+    }
+    }
+
+
   }
 }

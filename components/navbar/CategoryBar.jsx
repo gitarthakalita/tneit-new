@@ -5,6 +5,9 @@ import Link from "next/link";
 const CategoryBar = () => {
   return (
     <div className="category-bar">
+      <Link href="/" >
+        <div className="cat-item"> Home </div>
+      </Link>
       <Link href="/world" >
         <div className="cat-item"> World </div>
       </Link>

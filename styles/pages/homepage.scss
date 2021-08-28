@@ -55,11 +55,14 @@
         }
 
         .featured-opinion-column{
-            background-color: $baseCloud;
+            // background-color: $baseCloud;
             grid-row-start: r1;
             grid-row-end: r3;
             grid-column-start: c3;
             grid-column-end: c4;
+
+            height: 100%;
+            width: 100%;
 
          
 

@@ -29,6 +29,7 @@ const Homepage = ({ data }) => {
           <div className="featured-opinion-column">
             <div className="opinion-column-wrapper">
               <FeaturedColumn/>
+              
             </div>
           </div>
         </div>

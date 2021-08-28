@@ -29,6 +29,7 @@ export const LiveUpdateSnippet = ({snippet}) => {
         <div className="live-update-snippet">
             <div className="content-category">{snippet.category}</div>
             <p>{snippet.content}</p>
+            <span>11 minutes ago</span>
         </div>
     )
 }
