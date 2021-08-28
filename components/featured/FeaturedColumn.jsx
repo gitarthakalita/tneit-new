@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const FeaturedColumn = ({opinionData}) => {
   return (
     <div className="featured-opinion">          
@@ -11,6 +12,7 @@ const FeaturedColumn = ({opinionData}) => {
                 />
                ))
            }
+           
            
            
       </div>

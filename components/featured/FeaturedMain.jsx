@@ -5,7 +5,7 @@ const FeaturedMain = ({ item }) => {
   return (
     <div className="featured-main-wrapper">
       <Link href={`/${item.category}/${item.slug}`}>
-        <h3>{item.title}</h3>
+        <h3> <span>Featured | </span> {item.title}</h3>
       </Link>
       <div className="excerpt-box">
         {item.excerpts.map((item, index) => (

@@ -2,6 +2,7 @@ import React from "react";
 import Adbox from "../components/adbox/Adbox";
 import EditorialToday from "../components/editors/EditorialToday";
 import EditorsPick from "../components/editors/EditorsPick";
+import FeaturedCartoon from "../components/featured/FeaturedCartoon";
 import FeaturedColumn from "../components/featured/FeaturedColumn";
 import FeaturedExclussive from "../components/featured/FeaturedExclussive";
 import FeaturedMain from "../components/featured/FeaturedMain";
@@ -28,11 +29,10 @@ const Homepage = ({ data }) => {
           </div>
           <div className="featured-opinion-column">
             <div className="opinion-column-wrapper">
-            <h4>Opinions</h4>
-              <FeaturedColumn 
-                opinionData={data.featuredOpinion}
-              />
-              
+              <h4>Opinions</h4>
+              <FeaturedColumn opinionData={data.featuredOpinion} />
+
+              <FeaturedCartoon />
             </div>
           </div>
         </div>
@@ -40,24 +40,20 @@ const Homepage = ({ data }) => {
 
       <section className="editors-section">
         <div className="wrapper">
-          <EditorsPick/>
-          <EditorialToday/>
+          <EditorsPick />
+          <EditorialToday />
         </div>
       </section>
 
-      
       <Adbox image_url="/assets/advert.png" height="30vh" />
 
       <section className="editors-section">
         <div className="wrapper"></div>
       </section>
 
-
       <section className="editors-section">
         <div className="wrapper"></div>
       </section>
-
-
 
       <section className="editors-section">
         <div className="wrapper"></div>
@@ -65,22 +61,19 @@ const Homepage = ({ data }) => {
 
       <Adbox image_url="https://picsum.photos/1250/350" height="40vh" />
 
+      <section className="editors-section">
+        <div className="wrapper"></div>
+      </section>
 
-<section className="editors-section">
-  <div className="wrapper"></div>
-</section>
+      <section className="editors-section">
+        <div className="wrapper"></div>
+      </section>
 
-<section className="editors-section">
-  <div className="wrapper"></div>
-</section>
-
-<section className="editors-section">
-  <div className="wrapper"></div>
-</section>
-
+      <section className="editors-section">
+        <div className="wrapper"></div>
+      </section>
 
       <Adbox image_url="/assets/advert.png" height="40vh" />
-
     </Layout>
   );
 };

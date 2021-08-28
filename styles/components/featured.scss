@@ -10,8 +10,12 @@
   gap: 3rem;
 
   h4 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: $baseColor;
+    background-color: $baseColor;
+    padding: 1rem;
+    color: $secondaryColor;
+    border-radius: 0.25rem;
   }
 
   .snippets-container {
@@ -28,7 +32,7 @@
     .live-update-snippet {
       min-height: 12rem;
       height: 100%;
-      width: 85%;
+      width: 100%;
 
       display: flex;
       flex-direction: column;
@@ -37,7 +41,7 @@
       padding: 1rem;
 
       background-color: $baseCloud;
-      
+
       .content-category {
         font-size: 1rem;
         text-transform: capitalize;
@@ -52,7 +56,7 @@
         cursor: pointer;
       }
 
-      span{
+      span {
         color: $baseColor;
       }
     }
@@ -80,6 +84,12 @@
     color: $baseColor;
 
     cursor: pointer;
+
+    span{
+      color: $secondaryColor;
+      font-size: 3.6rem;
+      
+    }
   }
 
   .excerpt-box {
@@ -128,7 +138,6 @@
   place-items: center;
 
   &:hover {
-    
     box-shadow: 0 0.15rem 0.35rem #e4e3e3;
   }
 
@@ -147,20 +156,19 @@
 
     position: relative;
 
-    .exclussive-label{
+    .exclussive-label {
       position: absolute;
       top: -4%;
       left: 0;
     }
 
-    .MuiButtonBase-root{
+    .MuiButtonBase-root {
       // background-color: $baseColor;
       color: $secondaryColor;
       font-weight: 600;
       font-size: 1.2rem;
       text-transform: capitalize;
     }
-
 
     h3 {
       font-size: 2rem;
@@ -185,12 +193,10 @@
   }
 }
 
-
-
-.opinion-column-wrapper{
+.opinion-column-wrapper {
   height: 100%;
   width: 100%;
-  
+
   padding: 2rem 0;
 
   display: flex;
@@ -199,25 +205,25 @@
 
   gap: 3rem;
 
-  
   h4 {
-    
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: $baseColor;
-    
-    
+    background-color: $baseColor;
+    padding: 1rem;
+    color: $secondaryColor;
+    border-radius: 0.25rem;
   }
- 
-  .featured-opinion{
+
+  .featured-opinion {
     height: 100%;
     width: 100%;
     display: grid;
 
-    grid-template-rows: 1fr 1fr 1fr  1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 
     gap: 1rem;
 
-    .featured-opinion-card{
+    .featured-opinion-card {
       height: 100%;
       width: 100%;
       background-color: $baseCloud;
@@ -227,22 +233,47 @@
 
       padding: 0 1rem;
 
-      h5{
-        font-size: 1.8rem;
+      h5 {
+        font-size: 1.6rem;
         line-height: 150%;
         color: $baseColor;
-
       }
 
-      .author{
+      .author {
         font-size: 1.4rem;
         color: $baseColor;
       }
-
-      
-    
     }
 
+    .adbox {
+      height: 100%;
+      width: 100%;
+      background-color: $baseColor;
+    }
+  }
+}
 
+.featured-cartoon {
+  height: 50rem;
+  width: 100%;
+  // background-color: $baseColor;
+
+  h4 {
+    font-size: 1.8rem;
+    color: $baseColor;
+    background-color: $baseColor;
+    padding: 1rem;
+    color: $secondaryColor;
+    border-radius: 0.25rem 0.25rem 0 0;
+  }
+
+  .cartoon-image {
+    border: 0.25rem solid $baseColor;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url("https://static01.nyt.com/images/2017/09/22/arts/design/22nyrejects-slide-8G3W/22nyrejects-slide-8G3W-articleLarge-v3.jpg?quality=75&auto=webp&disable=upscale");
   }
 }
