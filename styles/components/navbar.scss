@@ -4,6 +4,12 @@
   display: grid;
   place-items: center;
 
+  @media (max-width: 460px) {
+    
+    height: 6rem;
+  
+}
+
   .wrapper {
     width: 90%;
     height: 100%;
@@ -12,6 +18,8 @@
     align-items: center;
 
     gap: 5rem;
+
+
 
 
     .paper-box {
@@ -88,6 +96,28 @@
           background-color: $baseCloud;
           width: 10rem;
           color: $baseColor;
+        }
+      }
+    }
+
+    @media (max-width: 460px) {
+
+      width: 100%;
+
+
+      .paper-box{
+        display: none;
+      }
+
+      .activity-box{
+        display: none;
+      }
+
+      .logo-box{
+        h1{
+          font-size: 2.6rem;
+          text-align: center;
+          line-height: 125%;
         }
       }
     }

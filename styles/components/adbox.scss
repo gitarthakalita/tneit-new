@@ -4,15 +4,13 @@
   width: 100%;
   display: grid;
   place-items: center;
-background-color: $baseCloud;
-padding: 5rem 0; 
+  background-color: $baseCloud;
+  padding: 5rem 0;
 
   .ad {
     position: relative;
     width: 80%;
-    height: 80%;
-    //   background-image: url("https://smsh-0-778169-juc1ugur1qwqqqo4.stackpathdns.com/1545644/wp-content/uploads/2021/04/Sellics_Benchmarker_Banner_1740x450_EN.png?lossy=0&strip=1&webp=1");
-    //   background-image: url("https://picsum.photos/1150/250");
+    height: 80%;    
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -26,5 +24,9 @@ padding: 5rem 0;
       color: grey;
       text-transform: uppercase;
     }
+  }
+
+  @media (max-width: 460px) {
+    display: none;   
   }
 }

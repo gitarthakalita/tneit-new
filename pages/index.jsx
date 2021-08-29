@@ -14,7 +14,7 @@ const Homepage = ({ data }) => {
 
   return (
     <Layout showAds="true">
-      <section className="featured-section">
+      {/* <section className="featured-section">
         <div className="wrapper">
           <div className="featured-live-updates">
             <LiveUpdate livedata={data.liveUpdate} />
@@ -73,7 +73,7 @@ const Homepage = ({ data }) => {
         <div className="wrapper"></div>
       </section>
 
-      <Adbox image_url="/assets/advert.png" height="40vh" />
+      <Adbox image_url="/assets/advert.png" height="40vh" /> */}
     </Layout>
   );
 };

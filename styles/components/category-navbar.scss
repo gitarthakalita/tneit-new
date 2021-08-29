@@ -27,6 +27,12 @@
       color: #36c270;
     }
   }
+
+  @media (max-width: 460px) {
+    
+    display: none;
+  
+}
 }
 
 //  Catgeory Navbar
@@ -78,5 +84,11 @@
         
       }
   }
+  }
+
+  @media (max-width: 460px) {
+    
+      display: none;
+    
   }
 }
