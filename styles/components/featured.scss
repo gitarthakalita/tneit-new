@@ -16,6 +16,7 @@
     padding: 0.75rem 1rem;
     color: $secondaryColor;
     border-radius: 0.25rem;
+    
   }
 
   .snippets-container {
@@ -47,6 +48,7 @@
         text-transform: capitalize;
         font-weight: 600;
         color: $secondaryColor;
+        color: $primaryColor;
       }
 
       p {
@@ -86,7 +88,8 @@
     cursor: pointer;
 
     span{
-      color: $secondaryColor;
+      // color: $secondaryColor;
+      color: $primaryColor;
       font-size: 3.6rem;
       
     }
@@ -159,7 +162,8 @@
     .exclussive-label {
       position: absolute;
       top: -4%;
-      left: 0;
+      left: 0;      
+      
     }
 
     .MuiButtonBase-root {
@@ -168,6 +172,8 @@
       font-weight: 600;
       font-size: 1.2rem;
       text-transform: capitalize;
+      color: $accentColor;
+      
     }
 
     h3 {
@@ -237,6 +243,7 @@
         font-size: 1.6rem;
         line-height: 150%;
         color: $baseColor;
+        font-family: "Roboto Slab";
       }
 
       .author {
