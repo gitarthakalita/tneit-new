@@ -1,4 +1,5 @@
 import React from "react";
+import Adbox from "../../components/adbox/Adbox";
 
 import Layout from "../../components/layout/Layout";
 
@@ -72,6 +73,10 @@ const NewsPost = () => {
             and perhaps more, if it can get more access to supplies and raw
             materials.
           </p>
+
+          <Adbox image_url="https://picsum.photos/700/500" height="30vh" />
+
+          
         </div>
       </div>
     </Layout>

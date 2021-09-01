@@ -7,7 +7,7 @@ const Adbox = ({image_url, height}) => {
           backgroundImage:`url(${image_url})`,
           height: `${height}`
       }}>
-        <p>Advertisement</p>
+        <div className="advert">Advertisement</div>
       </div>
     </section>
   );
