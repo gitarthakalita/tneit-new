@@ -10,12 +10,12 @@
   gap: 3rem;
 
   h4 {
-    font-size: 1.8rem;
-    color: $baseColor;
+    font-size: 1.6rem;    
     background-color: $baseColor;
     padding: 0.75rem 1rem;
     color: $secondaryColor;
     border-radius: 0.25rem;
+    text-align: center;
     
   }
 
@@ -212,12 +212,13 @@
   gap: 3rem;
 
   h4 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: $baseColor;
     background-color: $baseColor;
     padding: 0.75rem 1rem;
     color: $secondaryColor;
     border-radius: 0.25rem;
+    text-align: center;
   }
 
   .featured-opinion {
@@ -263,16 +264,6 @@
 .featured-cartoon {
   height: 50rem;
   width: 100%;
-  // background-color: $baseColor;
-
-  h4 {
-    font-size: 1.8rem;
-    color: $baseColor;
-    background-color: $baseColor;
-    padding: 0.75rem 1rem;
-    color: $secondaryColor;
-    border-radius: 0.25rem 0.25rem 0 0;
-  }
 
   .cartoon-image {
     border: 0.25rem solid $baseColor;
