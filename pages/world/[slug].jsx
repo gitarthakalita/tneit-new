@@ -45,6 +45,7 @@ const NewsPost = ({data}) => {
 
       <div className="story-content-section">
         <div className="story-content-wrapper">
+        <p>(This article is copied from The New York Times for UX/UI demonstration purposes.)</p>
           <p>
             The Trump administration and Pfizer are close to a deal under which
             the pharmaceutical company would bolster supply of its coronavirus
@@ -167,6 +168,8 @@ const NewsPost = ({data}) => {
             official said, “and they weren’t willing to do that.”
           </p>
 
+          <Adbox image_url="https://picsum.photos/600/1200" height="78vh" />
+
           <p>
             People knowledgeable about the talks said General Perna had raised a
             different concern with Pfizer, saying the government wanted to
@@ -175,9 +178,9 @@ const NewsPost = ({data}) => {
             supplies.
           </p>
 
-          <Adbox image_url="https://picsum.photos/600/1200" height="78vh" />
+         
 
-          <p>This article is copied from The New York Times for UX/UI demonstration purposes.</p>
+         
         </div>
       </div>
     </Layout>

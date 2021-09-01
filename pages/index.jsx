@@ -51,7 +51,7 @@ const Homepage = ({ data }) => {
         </div>
       </section>
 
-      {/* <Adbox image_url="/assets/advert.png" height="30vh" />
+      <Adbox image_url="/assets/advert.png" height="30vh" />
 
       <section className="editors-section">
         <div className="wrapper"></div>
@@ -79,7 +79,7 @@ const Homepage = ({ data }) => {
         <div className="wrapper"></div>
       </section>
 
-      <Adbox image_url="/assets/advert.png" height="40vh" /> */}
+      <Adbox image_url="/assets/advert.png" height="40vh" />
     </Layout>
   );
 };
