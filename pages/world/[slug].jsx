@@ -12,8 +12,11 @@ const NewsPost = () => {
             Pfizer Nears Deal With Trump Administration to Provide More Vaccine
             Doses
           </h3>
+          <p className="subheading">
+          The company could provide at least tens of millions of additional doses of a coronavirus vaccine under an agreement that would give it better access to the supplies it needs to expand manufacturing.
+          </p>
           <div className="story-data-box">
-            <div className="story-author">TNEIT Reporter</div>
+            <div className="story-author">By Sharon LaFraniere and Katie Thomas</div>
             <span>|</span>
             <div className="story-date">20.09.2021</div>
           </div>
