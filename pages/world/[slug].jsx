@@ -9,7 +9,7 @@ const NewsPost = () => {
       <section className="story-header-section">
         <div className="story-header-wrapper">
           <div className="story-type">
-            Featured <span>|</span> World{" "}
+            Featured <span>|</span> World
           </div>
           <h3>
             Pfizer Nears Deal With Trump Administration to Provide More Vaccine
