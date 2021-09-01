@@ -75,7 +75,7 @@
 
     .editorial-label {
       position: absolute;
-      top: -8%;
+      top: -6%;
       left: 0;
     }
 
@@ -85,9 +85,13 @@
 
     height: 100%;
 
+    padding: 2rem;
+
     .editors-pick-image{
       min-height: 30vh;
+      height: 100%;
       width: auto;
+      background-size: contain;
       background-position: 50%;
       order: 1;
     }
@@ -166,6 +170,7 @@
 
     .editorial-wrapper{
       height: 100%;
+      padding: 2rem;
     }
   }
 }

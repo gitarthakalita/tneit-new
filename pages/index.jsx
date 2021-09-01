@@ -39,7 +39,7 @@ const Homepage = ({ data }) => {
           </div>
 
           <div className="mobile-ad-op">
-            <Adbox image_url="https://picsum.photos/700/500" height="30vh" />
+            <Adbox image_url="https://picsum.photos/600/500" height="30vh" />
           </div>
         </div>
       </section>
