@@ -1,5 +1,5 @@
 .adbox-section {
-  min-height: 40vh;
+  // min-height: 40vh;
   height: 100%;
   width: 100%;
   display: grid;
@@ -19,7 +19,7 @@
     .advert {
       width: 100%;
       position: absolute;
-      top: -10%;
+      top: -3rem;
       text-align: center;
       color: grey;
       text-transform: uppercase;
