@@ -51,7 +51,7 @@
       }
 
       p {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 600;
         line-height: 150%;
         cursor: pointer;
@@ -94,7 +94,7 @@
     span {
       // color: $secondaryColor;
       color: $primaryColor;
-      font-size: 4.2rem;
+      font-size: 4rem;
     }
   }
 
@@ -215,6 +215,7 @@
     }
 
     .image-box {
+      min-height: 20vh;
       height: 100%;
       width: 100%;
       background-size: contain;
@@ -278,7 +279,7 @@
       padding: 0 1rem;
 
       h5 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         line-height: 150%;
         color: $baseColor;
         font-family: "Roboto Slab";

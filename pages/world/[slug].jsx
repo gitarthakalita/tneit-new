@@ -182,3 +182,6 @@ const NewsPost = () => {
 };
 
 export default NewsPost;
+
+
+
