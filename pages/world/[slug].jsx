@@ -3,7 +3,10 @@ import Adbox from "../../components/adbox/Adbox";
 
 import Layout from "../../components/layout/Layout";
 
-const NewsPost = () => {
+const NewsPost = ({data}) => {
+
+  const {story_title} = data
+  
   return (
     <Layout showAds="true">
       <section className="story-header-section">
@@ -12,8 +15,8 @@ const NewsPost = () => {
             Featured <span>|</span> World
           </div>
           <h3>
-            Pfizer Nears Deal With Trump Administration to Provide More Vaccine
-            Doses
+            {/* Pfizer Nears Deal With Trump Administration to Provide More Vaccine  Doses */}
+            {story_title}
           </h3>
           <p className="subheading">
             The company could provide at least tens of millions of additional
@@ -182,6 +185,23 @@ const NewsPost = () => {
 };
 
 export default NewsPost;
+
+
+export async function getServerSideProps(context) {
+  const {slug} = context.query
+
+  console.log(slug);
+
+  const res = await fetch(`http://localhost:3000/api/stories/${slug}`);
+  const data = await res.json();
+
+  return {
+    props: {
+      data
+    }
+  }
+
+}
 
 
 
