@@ -173,6 +173,8 @@ const NewsPost = () => {
           </p>
 
           <Adbox image_url="https://picsum.photos/600/1200" height="78vh" />
+
+          <p>This article is copied from The New York Times for UX/UI demonstration purposes.</p>
         </div>
       </div>
     </Layout>
