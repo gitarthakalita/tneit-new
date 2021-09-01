@@ -1,0 +1,63 @@
+.story-header-section {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+
+  display: grid;
+  place-items: center;
+  .story-header-wrapper {
+    width: 80%;
+    height: 85%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    .story-type {
+      font-size: 2rem;
+      color: $primaryColor;
+      font-weight: 600;
+    }
+
+    h3 {
+      font-size: 5rem;
+      color: $baseColor;
+      text-align: center;
+      line-height: 150%;
+      font-family: "Roboto Slab";
+    }
+
+    .story-data-box {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+
+      font-size: 1.6rem;
+      color: $baseColor;
+    }
+
+    .story-header-image {
+      height: 100vh;
+      width: 100%;
+      background-image: url(/assets/featured-main.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 50%;
+
+      position: relative;
+
+      display: flex;
+      justify-content: center;
+
+      .image-caption {
+        position: absolute;
+        width: 60%;
+        bottom: -10%;
+        line-height: 150%;
+        color: $baseColor;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

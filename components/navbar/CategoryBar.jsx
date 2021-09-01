@@ -10,10 +10,7 @@ const CategoryBar = () => {
       </Link>
       <Link href="/world" >
         <div className="cat-item"> World </div>
-      </Link>
-      <Link href="/asia ">
-        <div className="cat-item"> Asia </div>
-      </Link>
+      </Link>      
       <Link href="/india">
         <div className="cat-item" > India </div>
       </Link>
