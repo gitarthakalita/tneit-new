@@ -52,10 +52,11 @@
       }
 
       p {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-weight: 600;
         line-height: 150%;
         cursor: pointer;
+        font-family: "Roboto Slab";
       }
 
       span {
@@ -74,7 +75,7 @@
   display: grid;
   grid-template-columns: [c1] 1fr [c2] 1.25fr [c3];
   grid-template-rows: [r1] 13.5rem [r2] auto [r3];
-  gap: 0 1rem;
+  gap: 2rem 1rem;
 
   h3 {
     font-size: 3.2rem;
@@ -82,9 +83,7 @@
     grid-column-start: c1;
     grid-column-end: c3;
     font-family: "Roboto Slab";
-
     color: $baseColor;
-
     cursor: pointer;
 
     span{
