@@ -67,6 +67,11 @@
 
   }
 
+
+  @media (max-width: 460px) {
+    order: 2;
+  }
+
 }
 
 .editorial-today-card {
@@ -121,5 +126,9 @@
       font-weight: 600;
       color: $baseColor;
     }
+  }
+
+  @media (max-width: 460px) {
+    order: 1;
   }
 }
