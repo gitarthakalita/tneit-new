@@ -10,7 +10,6 @@ import LiveUpdate from "../components/featured/LiveUpdate";
 import Layout from "../components/layout/Layout";
 
 const Homepage = ({ data }) => {
-  
   return (
     <Layout showAds="true">
       <section className="featured-section">
@@ -33,6 +32,14 @@ const Homepage = ({ data }) => {
 
               <FeaturedCartoon />
             </div>
+          </div>
+
+          <div className="mobile-ad">
+            <Adbox image_url="https://picsum.photos/700/500" height="30vh" />
+          </div>
+
+          <div className="mobile-ad-op">
+            <Adbox image_url="https://picsum.photos/700/500" height="30vh" />
           </div>
         </div>
       </section>

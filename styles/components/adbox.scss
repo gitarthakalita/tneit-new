@@ -19,7 +19,7 @@
     p {
       width: 100%;
       position: absolute;
-      top: -7%;
+      top: -10%;
       text-align: center;
       color: grey;
       text-transform: uppercase;
@@ -27,6 +27,6 @@
   }
 
   @media (max-width: 460px) {
-    display: none;   
+    // display: none;   
   }
 }
