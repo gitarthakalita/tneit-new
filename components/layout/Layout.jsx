@@ -42,7 +42,7 @@ const Layout = ({ children, showAds }) => {
     <div className="layout-container">
       {showAds === "true" ? (
         <Adbox
-          image_url="https://picsum.photos/600/400"
+          image_url="https://picsum.photos/1200/250"
           height="30vh"
         />
       ) : null}
