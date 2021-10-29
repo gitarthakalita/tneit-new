@@ -5,9 +5,23 @@ import React from "react";
 import Sidebar from './Sidebar.jsx'
 
 
+
+
+
+
 const Navbar = () => {
 
   
+
+  
+  let today = new Date();
+
+  const month = today.toLocaleString('default', {month: 'long'});
+  const weekday = today.toLocaleString('default', {weekday: 'long'});
+  const day = today.toLocaleString('default', {day: 'numeric'});
+  const year = today.toLocaleString('default', {year: 'numeric'});
+  
+  let sentDate = today.toLocaleString('default', { weekday:'long', month: 'long', day:'numeric',year: 'numeric' });
 
 
   return (
@@ -15,7 +29,8 @@ const Navbar = () => {
       <div className="wrapper">
         <div className="paper-box">
           <div className="paper">Today's Paper, Assam Edition</div>
-          <div>Wednesday, April 7 , 2021</div>
+          {/* <div>Wednesday, April 7 , 2021</div> */}
+          <div>{sentDate}</div>
         </div>
        <Link href="/" passHref>
        <div className="logo-box">
