@@ -47,7 +47,7 @@ const Homepage = ({ data }) => {
       <section className="editors-section">
         <div className="wrapper">
           <EditorsPick />
-          <EditorialToday />
+          <EditorialToday item={data.editorialToday} />
         </div>
       </section>
 

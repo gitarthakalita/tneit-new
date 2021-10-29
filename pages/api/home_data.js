@@ -99,8 +99,8 @@ export default function handler(req,res) {
             },
             "editorialToday":{
                 "title":"China dam over Brahmaputra will be a disaster ",
-                "excerpts":"China is approving a mega dam on the world’s largest and the deepest gorge over the Tsangpo/ Siang/ Brahmaputra. Actually, it is a Giga dam as it is going to produce 60GW of energy. China’s aim to achieve carbon neutrality by 2060 by building a Giga dam for cheap electricity is outrageous. China already has an excess of energy, who will benefit from this electricity done at the expense of billions of people, including the death of the river Siang/Brahmaputra? ",        
-                "slug":"pfizer-nears-deal-with-trump-administration",
+                "excerpts":"China is approving a mega dam on the world’s largest and the deepest gorge over the Tsangpo/ Siang/ Brahmaputra. Actually, it is a Giga dam as it is going to produce 60GW of energy. China’s aim to achieve carbon neutrality by 2060 by building a Giga dam for cheap electricity is outrageous. China already has an excess of energy, who will benefit from this electricity done at the expense of billions of people, including the death of the river Siang/Brahmaputra? ",                        
+                "slug":"china-dam-over-brahmaputra-will-be-a-disaster",
                 "category":"editorial"
             }
         }
