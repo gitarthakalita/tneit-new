@@ -1,13 +1,12 @@
-import Layout from "../../components/layout/Layout"
-
-
+import CommonHeader from "../../components/common/CommonHeader";
+import Layout from "../../components/layout/Layout";
 
 const ExclussivePage = () => {
-    return (
-        <Layout>
-        
-        </Layout>
-    )
-}
+  return (
+    <Layout>
+      <CommonHeader headerTitle="Exclussives" headerCategories={["Series"]} />
+    </Layout>
+  );
+};
 
-export default ExclussivePage
+export default ExclussivePage;
