@@ -61,7 +61,8 @@ export async function getServerSideProps(context) {
 
   console.log(slug);
 
-  const res = await fetch(`http://localhost:3000/api/stories/${slug}`);
+  // const res = await fetch(`http://localhost:3000/api/stories/${slug}`);
+  const res = await fetch(`https://tneit.vercel.app//api/stories/${slug}`);
   const data = await res.json();
 
   return {
