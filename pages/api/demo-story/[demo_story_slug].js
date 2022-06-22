@@ -6,7 +6,7 @@ export default function handler(req, res) {
     res.status(200).json(
         {
             "story_title": title,
-            "story_categories": ["Featured", "World"],
+            "story_categories": ["Featured", "Politics"],
             "story_sub_heading": "The company could provide at least tens of millions of additional doses of a coronavirus accine under an agreement that would give it better access to the supplies it needs to expand manufacturing.",
             "story_author": "Sharon LaFraniere and Katie Thomas",
             "story_date": "20.09.2011",

@@ -89,12 +89,18 @@
     grid-column-end: c3;
     font-family: "Roboto Slab";
     color: $baseColor;
+    
     cursor: pointer;
 
     span {
       // color: $secondaryColor;
       color: $primaryColor;
       font-size: 3.6rem;
+    }
+
+
+    &:hover{
+      color: $baseColorAccent;
     }
   }
 
