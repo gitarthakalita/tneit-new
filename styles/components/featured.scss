@@ -9,6 +9,8 @@
 
   gap: 3rem;
 
+  
+
   h4 {
     font-size: 1.6rem;
     background-color: $baseColor;
@@ -41,6 +43,10 @@
       padding: 2rem 1rem;
 
       background-color: $baseCloud;
+
+      &:hover{
+        transform: scale(1.05);
+      }
 
       .content-category {
         font-size: 1rem;
@@ -169,19 +175,21 @@
   height: 100%;
   width: 100%;
 
-  // background-color: $baseCloud;
+  
   display: grid;
   place-items: center;
 
-  // &:hover {
-  //   box-shadow: 0 0.15rem 0.35rem #e4e3e3;
-  // }
+  &:hover {
+    box-shadow: 0 0.15rem 0.35rem #e4e3e3;
+    transform: scale(1.025);
+    background-color: $baseCloud;
+  }
 
   .featured-exclussive-wrapper {
     height: 100%;
     width: 100%;
     // padding: 1rem 2rem 1rem 1rem;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
 
     display: flex;
     flex-direction: column;
@@ -283,6 +291,13 @@
       justify-content: space-around;
 
       padding: 0 1rem;
+
+      cursor: pointer;
+
+      &:hover{
+        transform: scale(1.05);
+      }
+
 
       h5 {
         font-size: 1.6rem;
