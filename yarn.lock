@@ -1289,6 +1289,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nprogress@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "nprogress@npm:0.2.0"
+  checksum: 66b7bec5d563ecf2d1c3d2815e6d5eb74ed815eee8563e0afa63d3f185ab1b9cf2ddd97e1ded263b9995c5019d26d600320e849e50f3747984daa033744619dc
+  languageName: node
+  linkType: hard
+
 "object-assign@npm:^4.1.1":
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1"
@@ -1655,6 +1662,7 @@ __metadata:
     "@material-ui/core": ^4.12.0
     "@material-ui/icons": ^4.11.2
     next: ^12.0.1
+    nprogress: ^0.2.0
     react: ^17.0.2
     react-dom: ^17.0.2
     sass: ^1.35.1
