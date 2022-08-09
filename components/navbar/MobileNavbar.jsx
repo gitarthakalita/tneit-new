@@ -3,6 +3,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import ViewModuleIcon from '@material-ui/icons/ViewModule';
 import HomeIcon from '@material-ui/icons/Home';
 import Link from 'next/link';
+import Sidebar from './Sidebar';
 
 
 
@@ -19,7 +20,7 @@ const MobileNavbar = () => {
         </Link>
 
 
-        <Link href="/">
+        <Link href="/sections">
           <div className='menu-item'>
             <ViewModuleIcon />
             <span>Sections</span>
@@ -27,12 +28,14 @@ const MobileNavbar = () => {
 
         </Link>
 
-        <Link href="/">
+        <Link href="/menu">
           <div className='menu-item'>
             <MenuIcon />
             <span>Menu</span>
           </div>
         </Link>
+
+      
 
       </div>
     </div>
