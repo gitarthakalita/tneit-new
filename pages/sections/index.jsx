@@ -5,7 +5,7 @@ const Sections = () => {
   return (
     <Layout>
       <div className="sections-mobile-container">
-        
+        sections
       </div>
     </Layout>
   )

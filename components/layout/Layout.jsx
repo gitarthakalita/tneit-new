@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import Adbox from "../adbox/Adbox";
 import CategoryBar from "../navbar/CategoryBar";
 import CategoryNavbar from "../navbar/CategoryNavbar";
+import MobileNavbar from "../navbar/MobileNavbar";
 import Navbar from "../navbar/Navbar";
 
 const Layout = ({ children, showAds }) => {
@@ -53,6 +54,8 @@ const Layout = ({ children, showAds }) => {
         <CategoryNavbar />
       </div>
       {children}
+
+      <MobileNavbar/>
     </div>
   );
 };

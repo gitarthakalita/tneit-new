@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@material-ui/core", "virtual:658df15170d55bd1004ed707413ebcb7d2fc957c3e88b8fd26c7722462870f8d8ad91005b49a0850316b6d893717aa9152be62fa311dccf9f044626071f0d4b5#npm:4.12.4"],\
             ["@material-ui/icons", "virtual:658df15170d55bd1004ed707413ebcb7d2fc957c3e88b8fd26c7722462870f8d8ad91005b49a0850316b6d893717aa9152be62fa311dccf9f044626071f0d4b5#npm:4.11.3"],\
             ["next", "virtual:658df15170d55bd1004ed707413ebcb7d2fc957c3e88b8fd26c7722462870f8d8ad91005b49a0850316b6d893717aa9152be62fa311dccf9f044626071f0d4b5#npm:12.2.4"],\
+            ["nprogress", "npm:0.2.0"],\
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:658df15170d55bd1004ed707413ebcb7d2fc957c3e88b8fd26c7722462870f8d8ad91005b49a0850316b6d893717aa9152be62fa311dccf9f044626071f0d4b5#npm:17.0.2"],\
             ["sass", "npm:1.54.3"]\
@@ -1539,6 +1540,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["nprogress", [\
+        ["npm:0.2.0", {\
+          "packageLocation": "./.yarn/cache/nprogress-npm-0.2.0-c1c0973624-66b7bec5d5.zip/node_modules/nprogress/",\
+          "packageDependencies": [\
+            ["nprogress", "npm:0.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["object-assign", [\
         ["npm:4.1.1", {\
           "packageLocation": "./.yarn/cache/object-assign-npm-4.1.1-1004ad6dec-fcc6e4ea8c.zip/node_modules/object-assign/",\
@@ -2007,6 +2017,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@material-ui/core", "virtual:658df15170d55bd1004ed707413ebcb7d2fc957c3e88b8fd26c7722462870f8d8ad91005b49a0850316b6d893717aa9152be62fa311dccf9f044626071f0d4b5#npm:4.12.4"],\
             ["@material-ui/icons", "virtual:658df15170d55bd1004ed707413ebcb7d2fc957c3e88b8fd26c7722462870f8d8ad91005b49a0850316b6d893717aa9152be62fa311dccf9f044626071f0d4b5#npm:4.11.3"],\
             ["next", "virtual:658df15170d55bd1004ed707413ebcb7d2fc957c3e88b8fd26c7722462870f8d8ad91005b49a0850316b6d893717aa9152be62fa311dccf9f044626071f0d4b5#npm:12.2.4"],\
+            ["nprogress", "npm:0.2.0"],\
             ["react", "npm:17.0.2"],\
             ["react-dom", "virtual:658df15170d55bd1004ed707413ebcb7d2fc957c3e88b8fd26c7722462870f8d8ad91005b49a0850316b6d893717aa9152be62fa311dccf9f044626071f0d4b5#npm:17.0.2"],\
             ["sass", "npm:1.54.3"]\
