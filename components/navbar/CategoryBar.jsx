@@ -8,9 +8,6 @@ const CategoryBar = () => {
       <Link href="/" >
         <div className="cat-item"> Home </div>
       </Link>
-      <Link href="/live-update" >
-        <div className="cat-item"> Live Update </div>
-      </Link>
       <Link href="/world" >
         <div className="cat-item"> World </div>
       </Link>      
