@@ -77,7 +77,7 @@ const Homepage = ({ data }) => {
       </section>
 
       <section className="editors-section">
-        <div className="wrapper"></div>
+        <div className="wrapper">EHLLO MEW</div>
       </section>
 
       <Adbox image_url="/assets/advert.png" height="40vh" />
