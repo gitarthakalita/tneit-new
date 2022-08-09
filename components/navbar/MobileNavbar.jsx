@@ -3,7 +3,6 @@ import MenuIcon from '@material-ui/icons/Menu';
 import ViewModuleIcon from '@material-ui/icons/ViewModule';
 import HomeIcon from '@material-ui/icons/Home';
 import Link from 'next/link';
-import Sidebar from './Sidebar';
 
 
 
