@@ -3,16 +3,17 @@ import Adbox from "../../components/adbox/Adbox";
 
 import Layout from "../../components/layout/Layout";
 
-const NewsPost = ({ data }) => {
-  const {
-    story_title,
-    story_sub_heading,
-    story_author,
-    story_date,
-    story_header_image,
-    story_header_image_caption,
-    story_content
-  } = data;
+const NewsPost = () => {
+// const NewsPost = ({ data }) => {
+  // const {
+  //   story_title,
+  //   story_sub_heading,
+  //   story_author,
+  //   story_date,
+  //   story_header_image,
+  //   story_header_image_caption,
+  //   story_content
+  // } = data;
 
   return (
     <Layout showAds="true">

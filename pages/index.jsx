@@ -9,7 +9,8 @@ import FeaturedMain from "../components/featured/FeaturedMain";
 import LiveUpdate from "../components/featured/LiveUpdate";
 import Layout from "../components/layout/Layout";
 
-const Homepage = ({ data }) => {
+const Homepage = () => {
+// const Homepage = ({ data }) => {
   // const Homepage = () => {
   return (
     <Layout showAds="true">
