@@ -9,12 +9,11 @@ import FeaturedMain from "../components/featured/FeaturedMain";
 import LiveUpdate from "../components/featured/LiveUpdate";
 import Layout from "../components/layout/Layout";
 
-const Homepage = () => {
-// const Homepage = ({ data }) => {
+const Homepage = ({ data }) => {
   // const Homepage = () => {
   return (
     <Layout showAds="true">
-      {/* <section className="featured-section">
+      <section className="featured-section">
         <div className="wrapper">
           <div className="featured-live-updates">
             <LiveUpdate livedata={data.liveUpdate} />
@@ -81,22 +80,22 @@ const Homepage = () => {
         <div className="wrapper">EHLLO MEW</div>
       </section>
 
-      <Adbox image_url="/assets/advert.png" height="40vh" /> */}
+      <Adbox image_url="/assets/advert.png" height="40vh" />
     </Layout>
   );
 };
 
 export default Homepage;
 
-// export async function getStaticProps(context) {
-//   // const res = await fetch("http://localhost:3000/data/homepage.json");
-//   // const res = await fetch("http://localhost:3000/api/home_data");
-//   const res = await fetch("https://tneit.vercel.app/api/home_data");
-//   const data = await res.json();
+export async function getStaticProps(context) {
+  // const res = await fetch("http://localhost:3000/data/homepage.json");
+  // const res = await fetch("http://localhost:3000/api/home_data");
+  const res = await fetch("https://tneit.vercel.app/api/home_data");
+  const data = await res.json();
 
-//   return {
-//     props: {
-//       data,
-//     },
-//   };
-// }
+  return {
+    props: {
+      data,
+    },
+  };
+}
